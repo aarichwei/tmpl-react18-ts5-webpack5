@@ -1,9 +1,9 @@
 import React from "react"
-import { createBrowserRouter } from "react-router-dom"
+import { createHashRouter } from "react-router-dom"
 import About from "../pages/about"
 import Home from "../pages/home"
 
-export default createBrowserRouter([
+export default createHashRouter([
     {
         path: '/',
         element: <Home />,
